@@ -1,0 +1,65 @@
+<!-------------------------------------------
+ * File: app.js
+ * Develop by: @smidvarg
+ * Description: controls events and connect w/
+ * backend.
+ *
+ * version 0.1
+ * Last edit : 6/4/2020 [20:30]
+ *
+ * A project by av_software 
+ * ------------------------------------------>
+
+ <!DOCTYPE html>
+ <html lang="es">
+ <main class="main">
+     <head>
+         <meta charset="UTF-8">
+         <title>Pregunta</title>
+         <link rel="stylesheet" href="../css/quest_main.css">
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+     </head>
+    
+     <body>
+         <!--Header de puntaje-->
+        <header>
+            <div class="Eq1">
+                <p class="Equip">Equipo 1:</p>
+                <p class="Puntos">0</p>
+            </div>
+            <div class="Eq2">
+                <p class="Puntos">0</p>
+                <p class="Equip">Equipo 2:</p>
+            </div>
+        </header>
+        <!--Fin del Header de puntaje-->
+        <!--Cuerpo de la página principal-->
+        <div class="general">
+            <div class="preg">
+                <div class="backquest">
+                    <div class="titulo">
+                        <h2>Pregunta:</h2><br>
+                    </div>
+                   <div class="parrafo">
+                        <p>¿Quién derrotó a Heathcliff en la batalla del piso 75 de Aincrad?</p>
+                   </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="botones">
+                    <div class="col1">
+                        <input type="radio" name="radio" id="ans1">
+                        <label for="ans1" class="label1">Argo</label>
+                        <input type="radio" name="radio" id="ans2">
+                        <label for="ans2" class="label2">Klein</label>
+                    </div>
+                    <div class="col2">
+                        <input type="radio" name="radio" id="ans3">
+                        <label for="ans3" class="label3">Kizmel</label>
+                        <input type="radio" name="radio" id="ans4">
+                        <label for="ans4" class="label4">Kirito</label> 
+                    </div>
+                </div>              
+            </div>
+        </div>
+     </body>

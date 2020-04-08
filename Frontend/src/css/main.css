@@ -79,6 +79,8 @@
 
  }
 
+ /*Texto de categoría*/
+
  .random {
      width: 25%;
      height: 50px;
@@ -93,6 +95,8 @@
  .random:focus {
      outline: none;
  }
+
+ /*Botón que revuelve la categoría*/
 
  .botonplus {
     position: relative;
