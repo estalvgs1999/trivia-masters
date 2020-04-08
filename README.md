@@ -8,7 +8,6 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
-
 ### Pre-requisitos 📋
 
 _Que cosas necesitas para instalar el software y como instalarlas_
