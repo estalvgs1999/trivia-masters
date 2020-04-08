@@ -1,0 +1,111 @@
+/* -------------------------------------------
+ * File: incorrect_main.css
+ * Develop by: @smidvarg
+ * Description: css arrangement for main page.
+ *
+ * version 0.1
+ * Last edit : 6/4/2020 [20:30]
+ *
+ * A project by av_software 
+ * ------------------------------------------ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+ }
+
+ .general {
+     background: #26a65b;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .puntajes {
+     width: 80%;
+     height: 10vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .Eq1, .Eq2 {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     font-size: 25px;
+     width: 50%;
+     height: 100%;
+ }
+
+ .Equip {
+     margin-right: 5px;
+ }
+
+ .puntajes p {
+     margin-top: 35px;
+ }
+
+ /* El gran icono de error */
+
+ .icon {
+     width: 80%;
+     height: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 350px;
+ }
+
+ /* Son los mensajes */
+
+ .yes {
+     width: 80%;
+     height: 15%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+ }
+
+ .yeap {
+     width: 80%;
+     height: 15%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+ }
+
+ /* Botón para continuar */
+
+ .continue {
+     width: 100%;
+     height: 10%;
+     background-image: linear-gradient(to right, #26a65b, #03c9a88a);
+     display: flex;
+     flex-direction: row-reverse;
+ }
+
+ .boton {
+     background: none;
+     color: white;
+     height: 100%;
+     width: 40vh;
+     border: none;
+     cursor: pointer;
+     font-size: 20px;
+     transition: 0.4s ease;
+ }
+
+ .boton:hover {
+     color: #29f1c3;
+ }
+
+ .boton:focus {
+     outline: none;
+ }
