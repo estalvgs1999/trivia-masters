@@ -13,21 +13,25 @@
 # an av_software project
 #-------------------------------
 
-from flask import Flask, request
-from flask_restful import Resource, Api
+from flask import Flask, jsonify, request
 from json import dumps
-from flask_jsonpify import jsonify
 
 app = Flask(__name__)
-api = Api(app)
 
-class Game_resources(Resource):
+path = '/api/v1.0'
 
-    def get(self):
-       return {'msg':'hello'} 
+@app.route(path+'/category', methods=['GET'])
+def get_random_category():
+    return jsonify({'msg':'hello'}) 
 
+@app.route(path+'/question', methods=['GET'])
+def get_random_question():
+    print(request.json)
+    return jsonify({'question':'¿1+1?'})
 
-api.add_resource(Game_resources,'/saludo') 
+@app.route(path+'/answer', methods=['POST'])
+def verify_answer():
+    return {'answer':true}
 
 if __name__ == "__main__":
     app.run(port=8080)
