@@ -8,3 +8,200 @@
  *
  * A project by av_software 
  * ------------------------------------------ */
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+/* Header, que se encuentra en todos los archivos*/
+
+ header {
+     width: 100%;
+     height: 10vh;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+ }
+
+ .Eq1 {
+     width: 50%;
+     height: 100%;
+     background-image: linear-gradient(to right, #19b5fe, rgb(77, 19, 209));
+     display: flex;
+     align-items: center;
+ }
+
+ .Eq2 {
+     width: 50%;
+     height: 100%;
+     background-image: linear-gradient(to right, rgb(77, 19, 209),#d91e18);
+     display: flex;
+     flex-direction: row-reverse;
+
+     align-items: center;
+ }
+
+ .Equip {
+     margin-left: 10px;
+     font-size: 20px;
+     font-family: 'Roboto Mono', monospace;
+     color: white;
+ }
+
+ .Puntos {
+     margin-left: 5px;
+     margin-right: 10px;
+     font-size: 20px;
+     font-family: 'Roboto Mono', monospace;
+     color: white;
+ }
+
+ /* Cuerpo principal */
+
+ .general {
+     width: 100%;
+     min-height: 90vh;
+     background-color: #eeeeee;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .categoria {
+     width: 90%;
+     height: 20vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .random {
+     width: 25%;
+     height: 50px;
+     text-align: left;
+     border-radius: 15px;
+     border-style: none;
+     font-size: 25px;
+     background: rgba(0, 0, 0, 0.05);
+     margin-right: 15px;
+ }
+
+ .botonplus {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: solid 1px;
+    border-color: black;
+    font-size: 28px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .botonplus:after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    border-radius: 25%;
+  }
+  
+  .botonplus:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+ .bi-bi-shuffle {
+     font-size: 20px;
+     margin-top: 3px;
+ }
+
+ /*Botones de fácil o difícil*/
+
+ .container {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .container a {
+     position: relative;
+     width: 150px;
+     height: 55px;
+     text-align: center;
+     line-height: 55px;
+     margin: 10px;
+     text-transform: uppercase;
+     background: rgb(77, 19, 209);
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     text-decoration: none;
+     letter-spacing: 2px;
+     overflow: hidden;
+     border-radius: 15px;
+ }
+
+ .container a span {
+     position: relative;
+     display: block;
+     width: 100%;
+     height: 100%;
+     z-index: 100000;
+     transition: 0s ease-in;
+ }
+
+ .container a:hover span {
+     transition: 0.4s ease-in;
+     transform: translateY(-100%);
+ }
+
+ .container #facil:before {
+     content: '';
+     position: absolute;
+     bottom: -250px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 250px;
+     height: 250px;
+     background: #19b5fe;
+     border-radius:  50%;
+     transition: 0.4s ease-in;
+
+ }
+ .container #dificil:before {
+    content: '';
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 250px;
+    background: #d91e18;
+    border-radius:  50%;
+    transition: 0.4s ease-in;
+
+}
+
+.container #facil:hover:before, .container #dificil:hover:before {
+    bottom: -150px;
+}
