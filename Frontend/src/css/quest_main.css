@@ -72,7 +72,7 @@
 
  .preg {
      width: 90%;
-     height: 40vh;
+     height: 35vh;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -111,7 +111,7 @@
 
  .container {
      width: 90%;
-     height: 30vh;
+     height: 25vh;
      display: flex;
      justify-content: center;
      align-content: center;
@@ -185,3 +185,30 @@
      border: solid 5px;
      border-color: #1e824c;
 }
+
+.continuar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .ok {
+     margin-top: 10px;
+     width: 30vh;
+     height: 5vh;
+     border-radius: 15px;
+     cursor: pointer;
+     border: solid 2px;
+     transition: 0.4s ease;
+ }
+
+ .ok:hover {
+     background: black;
+     color: white;
+ }
+
+ .ok:focus {
+     outline: none;
+ }
