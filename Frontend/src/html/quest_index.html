@@ -10,18 +10,20 @@
  * A project by av_software 
  * ------------------------------------------>
 
- <!DOCTYPE html>
- <html lang="es">
- <main class="main">
-     <head>
-         <meta charset="UTF-8">
-         <title>Pregunta</title>
-         <link rel="stylesheet" href="../css/quest_main.css">
-         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-     </head>
-    
-     <body>
-         <!--Header de puntaje-->
+<!DOCTYPE html>
+<html lang="es">
+<main class="main">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Pregunta</title>
+        <link rel="stylesheet" href="../css/quest_main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <script src="../js/question.js"></script>
+    </head>
+
+    <body>
+        <!--Header de puntaje-->
         <header>
             <div class="Eq1">
                 <p class="Equip">Equipo 1:</p>
@@ -40,31 +42,31 @@
                     <div class="titulo">
                         <h2>Pregunta:</h2><br>
                     </div>
-                   <div class="parrafo">
-                        <p>¿Quién derrotó a Heathcliff en la batalla del piso 75 de Aincrad?</p>
-                   </div>
+                    <div class="parrafo">
+                        <p id="question">¿Quién derrotó a Heathcliff en la batalla del piso 75 de Aincrad?</p>
+                    </div>
                 </div>
             </div>
             <div class="container">
                 <div class="botones">
                     <div class="col1">
-                        <input type="radio" name="radio" id="ans1">
-                        <label for="ans1" class="label1">Argo</label>
-                        <input type="radio" name="radio" id="ans2">
-                        <label for="ans2" class="label2">Klein</label>
+                        <input type="radio" name="radio" id="ans1" onclick="set_answer('a')">
+                        <label id="a" for="ans1" class="label1">Argo</label>
+                        <input type="radio" name="radio" id="ans2" onclick="set_answer('b')">
+                        <label id="b" for="ans2" class="label2">Klein</label>
                     </div>
                     <div class="col2">
-                        <input type="radio" name="radio" id="ans3">
-                        <label for="ans3" class="label3">Kizmel</label>
-                        <input type="radio" name="radio" id="ans4">
-                        <label for="ans4" class="label4">Kirito</label> 
+                        <input type="radio" name="radio" id="ans3" onclick="set_answer('c')">
+                        <label id="c" for="ans3" class="label3">Kizmel</label>
+                        <input type="radio" name="radio" id="ans4" onclick="set_answer('d')">
+                        <label id="d" for="ans4" class="label4">Kirito</label>
                     </div>
-                </div>              
+                </div>
             </div>
             <div class="continuar">
-                <a href="#">
-                    <button class="ok">Ok</button>
+                <a id="ok" href="#">
+                    <button class="ok" onclick="validate_answer()">Ok</button>
                 </a>
             </div>
         </div>
-     </body>
+    </body>

@@ -1,4 +1,4 @@
-{
+var questions = {
     "Preguntas": {
 
         "facil": [
@@ -213,5 +213,38 @@
             }
         ]
 
+    }
+};
+
+var question;
+var answer;
+
+window.onload = function set_question() {
+    category = localStorage.getItem("category");
+    level = localStorage.getItem("level");
+    question = questions[category][level][Math.floor(Math.random() * questions[category][level].length)];
+
+    document.getElementById("question").innerHTML = question['enunciado'];
+    set_options();
+}
+
+function set_options() {
+
+    document.getElementById("a").innerHTML = question['opciones']['a'];
+    document.getElementById("b").innerHTML = question['opciones']['b'];
+    document.getElementById("c").innerHTML = question['opciones']['c'];
+    document.getElementById("d").innerHTML = question['opciones']['d'];
+}
+
+function set_answer(ans) {
+    answer = ans;
+    console.log(ans);
+}
+
+function validate_answer() {
+    if (answer == question['respuesta']) {
+        document.getElementById("ok").setAttribute("href", '../html/correct_index.html');
+    } else {
+        document.getElementById("ok").setAttribute("href", '../html/incorrect_index.html');
     }
 }

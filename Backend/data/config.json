@@ -1,5 +1,5 @@
 {
-    "q_sets": [],
+    "q_sets": "Backend/data/questions.json",
     "max_points": 10,
     "max_plays": 10
 }

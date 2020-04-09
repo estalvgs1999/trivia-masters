@@ -13,14 +13,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <main class="main">
+
     <head>
         <meta charset="UTF-8">
         <title>Trivia</title>
         <link rel="stylesheet" href="../css/main.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="../js/app.js"></script>
     </head>
-    
+
     <body>
         <!--Header de puntaje-->
         <header>
@@ -37,15 +39,15 @@
         <!--Cuerpo de la página principal-->
         <div class="general">
             <div class="categoria">
-                <input type="text" name="Categoría" class="random" placeholder=" Categoría" readonly>
-                <button class="botonplus"><i class="fa fa-random" aria-hidden="true"></i></button>
+                <input id="category" type="text" name="Categoría" class="random" placeholder=" Categoría" value="">
+                <button onclick="select_category()" class="botonplus"><i class="fa fa-random" aria-hidden="true"></i></button>
             </div>
             <div class="container">
-                <a href="#" id="facil">
+                <a href="../html/quest_index.html" id="facil" onclick="select_question('facil')">
                     <span>Fácil</span>
                     <span>Fácil</span>
                 </a>
-                <a href="#" id="dificil">
+                <a href="../html/quest_index.html" id="dificil" onclick="select_question('dificil')">
                     <span>Difícil</span>
                     <span>Difícil</span>
                 </a>
