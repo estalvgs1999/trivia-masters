@@ -26,7 +26,7 @@ var questions = {
             {
                 "enunciado": "¿Nombre del apóstol hermano de Pedro?",
                 "opciones": { "a": "Andrés", "b": "Filemón", "c": "Mateo", "d": "Juan" },
-                "respuesta": "c"
+                "respuesta": "a"
             },
             {
                 "enunciado": "¿Nombre de la madre de Juan el Bautista?",
@@ -36,7 +36,7 @@ var questions = {
             {
                 "enunciado": "¿Cómo se llamaba la esposa de Moisés?",
                 "opciones": { "a": "Séfora", "b": "Mariam", "c": "Betsabé", "d": "Dorcas" },
-                "respuesta": "c"
+                "respuesta": "a"
             }
 
         ],
@@ -60,7 +60,7 @@ var questions = {
             {
                 "enunciado": "¿Qué profeta bajo su consentimiento fue arrojado al mar?",
                 "opciones": { "a": "Miqueas", "b": "Jonás", "c": "Felipe", "d": "Daniel" },
-                "respuesta": "d"
+                "respuesta": "b"
             },
             {
                 "enunciado": "¿Cuántos años vivió Samuel?",
@@ -75,7 +75,7 @@ var questions = {
             {
                 "enunciado": "Hermano de Jesús que fue líder de la iglesia de Jerusalén",
                 "opciones": { "a": "Santiago", "b": "Jacobo", "c": "Judas", "d": "Esteban" },
-                "respuesta": "c"
+                "respuesta": "b"
             }
 
         ]
@@ -168,7 +168,7 @@ var questions = {
                 "respuesta": "d"
             },
             {
-                "enunciado": "Acuérdate de tu Creado en los días de tu juventud ...",
+                "enunciado": "Acuérdate de tu Creador en los días de tu juventud ...",
                 "opciones": {
                     "a": "antes de que lleguen los malos días",
                     "b": "antes que vengan los días malos",
