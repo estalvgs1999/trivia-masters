@@ -14,7 +14,6 @@
 #-------------------------------
 
 from flask import Flask, jsonify, request
-from json import dumps
 from game import game
 
 app = Flask(__name__)
@@ -23,20 +22,20 @@ path = '/api/v1.0'
 
 @app.route(path+'/category', methods=['GET'])
 def get_random_category():
-    game.select_category()
-    return jsonify({'msg':'hello'}) 
+    select_category = game.select_category()
+    return jsonify({'category':select_category,'a_points':game.team_a_points,'b_points':game.team_b_points}) 
 
 @app.route(path+'/question', methods=['GET'])
 def get_random_question():
     print(request.json)
-    r = game.select_question(request.json['category'],request.json['level'])
-    return jsonify(r)
+    selected_qustion = game.select_question(request.json['category'],request.json['level'])
+    return jsonify({"question":selected_qustion,'a_points':game.team_a_points,'b_points':game.team_b_points})
 
 @app.route(path+'/answer', methods=['POST'])
 def verify_answer():
-    game.validate_answer(request.json['q_id'],request.json['answer'])
-    # TODO: Enviar toda la información de este turno
-    return jsonify({'answer':true})
+    print(request.json)
+    answer_state = game.validate_answer(request.json['question'],request.json['answer'])
+    return jsonify({'state':answer_state, 'a_points':game.team_a_points,'b_points':game.team_b_points})
 
 def run_api():
     app.run(port=8080)

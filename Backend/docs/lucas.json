@@ -10,7 +10,8 @@
                     "c": "No podía caminar",
                     "d": "Ninguna"
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             },
             {
                 "enunciado": "Según Lucas 1 ¿Cuál fue el castigo de Zacarías?",
@@ -20,7 +21,8 @@
                     "c": "Dejó de caminar",
                     "d": "Perdió la escucha"
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 1
             },
             {
                 "enunciado": "Según Lucas 2 ¿Cuál era el nombre del Gobernador Romano?",
@@ -30,7 +32,8 @@
                     "c": "Augusto César",
                     "d": "Cirenio"
                 },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 1
             },
             {
                 "enunciado": "¿Quiénes vieron a Jesús en el templo?",
@@ -40,7 +43,8 @@
                     "c": "Ana y Simón",
                     "d": "Simeón y Ana"
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 1
             },
             {
                 "enunciado": "En Lucas 5:10 ¿A quién dijo Jesús 'desde ahora serás pescador de hombres'?",
@@ -50,7 +54,8 @@
                     "c": "Jacobo",
                     "d": "Felipe"
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 1
             },
             {
                 "enunciado": "En Lucas 8:40-56 ¿Desde hace cuánto tiempo padecía de sangrado la mujer que tocó los vestidos de Jesús?",
@@ -60,7 +65,8 @@
                     "c": 11,
                     "d": 10
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             },
             {
                 "enunciado": "Según Lucas 9:9 ¿Cómo murió Juan el Bautista?",
@@ -70,7 +76,8 @@
                     "c": "Quemado",
                     "d": "Crucificado"
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             },
             {
                 "enunciado": "¿Quiénes eran los hombres que hablaban con Jesús en la transfiguración según Lucas 9: 30?",
@@ -80,7 +87,8 @@
                     "c": "Moisés y Elías",
                     "d": "Jacob y Jonás"
                 },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 1
             },
             {
                 "enunciado": "¿En cuál capítulo de Lucas se narra la crucifixión de Jesús?",
@@ -90,7 +98,8 @@
                     "c": 24,
                     "d": 25
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             }
         ],
 
@@ -102,7 +111,8 @@
                     "c": "Cleofas",
                     "d": "Caifás"
                 },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 3
             },
             {
                 "enunciado": "Según Lucas 4:25 ¿Qué fue cerrado durante 6 años y 6 días en el tiempo del profeta Elías?",
@@ -112,7 +122,8 @@
                     "c": "La casa de Acab",
                     "d": "Las puertas de Jerusalén"
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 3
             },
             {
                 "enunciado": "De acuerdo a Lucas 15:9 ¿Cuándo la viuda encuentra la moneda se reúne con sus amigas y vecinas para celebrar?",
@@ -122,7 +133,8 @@
                     "c": "",
                     "d": ""
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 3
             },
             {
                 "enunciado": "Según Lucas 9:20 ¿Cuál fue la respuesta de Pedro cuando Jesús preguntó 'Y vosotros, quién decís que soy'?",
@@ -132,7 +144,8 @@
                     "c": "Tú eres el Cristo",
                     "d": "El Cristo de Dios"
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 3
             },
             {
                 "enunciado": "De acuerdo a Lucas 22:50 ¿Qué le cortó uno de los discípulos a un siervo del sumo sacerdote?",
@@ -142,7 +155,8 @@
                     "c": "Mano derecha",
                     "d": "Mano izquierda"
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             },
             {
                 "enunciado": "De acuerdo a Lucas 14:3 ¿A quién preguntó Jesús 'es lícito sanar en sábado'?",
@@ -152,7 +166,8 @@
                     "c": "Discípulos y Fariseos",
                     "d": "Sacerdotes y Fariseos"
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 3
             },
             {
                 "enunciado": "De acuerdo a Lucas 3:23 ¿Quién era el padre y el abuelo terrenal de Jesús?",
@@ -162,7 +177,8 @@
                     "c": "José y Elí",
                     "d": "Zacarías y Juan"
                 },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 3
             },
             {
                 "enunciado": "Según Lucas 23:39 ¿En qué lado de la cruz estaba el malhechor que injuriaba a Jesús?",
@@ -172,7 +188,8 @@
                     "c": "Ningún malhechor injurió a Jesús",
                     "d": "Ninguna de las anteriores"
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 3
             },
             {
                 "enunciado": "Según Lucas 22:54-62 ¿Cuál fue el orden de las personas que acusaron a Pedro?",
@@ -182,7 +199,8 @@
                     "c": "Dos hombres y la criada",
                     "d": "Ninguna de las anteriores"
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             },
             {
                 "enunciado": "En Lucas 24:36 Jesús saluda a sus discípulos ¿Cuál es el saludo?",
@@ -192,7 +210,8 @@
                     "c": "¡Salve!",
                     "d": "Paz con vosotros"
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 3
             },
             {
                 "enunciado": "¿Cuántos milagros realiza Jesús en el capítulo 5 de Lucas?",
@@ -202,7 +221,8 @@
                     "c": 4,
                     "d": 3
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 3
             }
         ]
     }

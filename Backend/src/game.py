@@ -13,13 +13,19 @@
 #-------------------------------
 
 
-from questions import *
+import questions as qs
+import os
+import json
 import random
-from json import dumps
+
+file_dir = os.path.dirname(os.path.abspath(__file__))
+directory_file = os.path.dirname(file_dir)
+config_path =  directory_file + '/docs/config.json'
 
 
 class Game:
 
+    points = {'facil':1, 'dificil':3}
     def __init__(self):
 
         self.team_a_points = 0
@@ -30,23 +36,41 @@ class Game:
         # read from config file
         self.max_plays = 0
         self.max_points = 0
-        pass
+        self.question_set = qs.QuestionSet()
+        
+        self.set_config()
 
-    def get_config(self):
-        pass
 
+    # @brief - Extract configuration settings for the game
+    def set_config(self):
+        
+        with open(config_path, 'r') as json_file:
+                
+                config_json = json.load(json_file)
+                
+                self.max_plays = config_json["max_plays"]
+                self.max_points = config_json["max_points"]
+                q_file = config_json["q_file"]
+
+                self.question_set.loadQuestionSet(q_file)
+
+        print('''--- INICIAR JUEGO --- \n+ Set: {0}\n+ Puntos Máximos: {1}\n+ Turnos Máximos: {2}'''.format(q_file, self.max_points, self.max_plays))
+                
 
     def select_category(self):
-        # TODO: Selecciona una categoría del archivo 
-        pass
+       return self.question_set.getRandomCategory()
 
     def select_question(self, category, level = 'easy'):
-        # TODO: Selecciona una pregunta del archivo 
-        return random.choice(q).to_JSON()
+        return self.question_set.getRandomQuestion(category,level)
         
-    def validate_answer(self,question_id, answer):
-        # TODO: Verifica la respuesta para una pregunta
-        pass
+    def validate_answer(self,question, answer):
+        state = False
+        if question['respuesta'] == answer:
+            state = True
+            self.add_points(question['points'])
+        self.next_team()
+        self.info()
+        return state
 
     def add_points(self, points):
         if self.current_team:
@@ -58,10 +82,21 @@ class Game:
         self.current_team = not self.current_team
         self.plays += 1
 
+    def info(self):
+        info = '''
+        ------------ TRIVIA ----------
+        
+        Equipo 1: {0}    Equipo 2:{1}
+
+        Turno: {2}
+        ------------------------------
+        '''.format(self.team_a_points,self.team_b_points, 'Equipo 1' if not self.current_team else 'Equipo 2')
+        print(info)
+
 # For singleton :)
 game = Game()    
 
 
 
 if __name__ == "__main__":
-    print(game.select_question('a'))
+    game.info()

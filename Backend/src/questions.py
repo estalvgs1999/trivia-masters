@@ -39,20 +39,21 @@ class QuestionSet:
     # @brief - It is responsible for reading the configuration
     #          json and returns it as a dictionary
     def __getJson(self,filename):
-        with open(config_path+filename, 'r') as json_file:
-            ds_json = json.load(json_file)
-            return ds_json
-
+        try:
+            with open(config_path+filename, 'r') as json_file:
+                ds_json = json.load(json_file)
+                return ds_json
+        except:
+            print("Error 404 File not found")
+            return -1
 
     def getCategories(self):
         return self.__categories
 
-
     def getQuestions(self):
         return self.__questions
 
-
-    def gerRandomCategory(self):
+    def getRandomCategory(self):
         return random.choice(self.__categories)
 
     def getRandomQuestion(self, category,level):
@@ -62,9 +63,9 @@ class QuestionSet:
 
 if __name__ == "__main__":
     pg = QuestionSet()
-    pg.loadQuestionSet('lucas.json')
+    pg.loadQuestionSet('set_varios1.json')
     
-    ct = pg.gerRandomCategory()
+    ct = pg.getRandomCategory()
     print(ct)
 
     print(pg.getRandomQuestion(ct,'facil'))

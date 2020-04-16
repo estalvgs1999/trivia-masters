@@ -34,7 +34,7 @@ Pillow==5.1.0
 ply==3.11
 plyer==1.4.3
 protobuf==3.0.0
-psutil==5.6.6
+psutil==5.4.2
 pycairo==1.16.2
 pycrypto==2.6.1
 pycups==1.9.73
@@ -55,11 +55,11 @@ python-debian==0.1.32
 python-xapp==1.8.1
 python-xlib==0.20
 pytz==2018.3
-pyxdg==0.26
-PyYAML==5.1
+pyxdg==0.25
+PyYAML==3.12
 QScintilla==2.11.3
 reportlab==3.4.0
-requests==2.20.0
+requests==2.18.4
 requests-unixsocket==0.1.5
 rope==0.16.0
 sessioninstaller==0.0.0
@@ -70,7 +70,7 @@ systemd-python==234
 tinycss==0.4
 ubuntu-drivers-common==0.0.0
 ufw==0.36
-urllib3==1.24.2
+urllib3==1.22
 virtualenv==15.1.0
 Werkzeug==1.0.1
 xkit==0.0.0
