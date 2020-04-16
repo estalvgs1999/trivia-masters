@@ -1,0 +1,209 @@
+{
+    "Preguntas": {
+        "facil": [
+
+            {
+                "enunciado": "Según Lucas 1 ¿Cuál era el problema que tenía Elizabet?",
+                "opciones": {
+                    "a": "Sangrado",
+                    "b": "Era estéril",
+                    "c": "No podía caminar",
+                    "d": "Ninguna"
+                },
+                "respuesta": "b"
+            },
+            {
+                "enunciado": "Según Lucas 1 ¿Cuál fue el castigo de Zacarías?",
+                "opciones": {
+                    "a": "Perdió el habla",
+                    "b": "Perdió la vista",
+                    "c": "Dejó de caminar",
+                    "d": "Perdió la escucha"
+                },
+                "respuesta": "a"
+            },
+            {
+                "enunciado": "Según Lucas 2 ¿Cuál era el nombre del Gobernador Romano?",
+                "opciones": {
+                    "a": "Nerón",
+                    "b": "César Augusto",
+                    "c": "Augusto César",
+                    "d": "Cirenio"
+                },
+                "respuesta": "c"
+            },
+            {
+                "enunciado": "¿Quiénes vieron a Jesús en el templo?",
+                "opciones": {
+                    "a": "Simeón y Elizabet",
+                    "b": "Los maestros de la ley",
+                    "c": "Ana y Simón",
+                    "d": "Simeón y Ana"
+                },
+                "respuesta": "d"
+            },
+            {
+                "enunciado": "En Lucas 5:10 ¿A quién dijo Jesús 'desde ahora serás pescador de hombres'?",
+                "opciones": {
+                    "a": "Simón",
+                    "b": "Juan",
+                    "c": "Jacobo",
+                    "d": "Felipe"
+                },
+                "respuesta": "a"
+            },
+            {
+                "enunciado": "En Lucas 8:40-56 ¿Desde hace cuánto tiempo padecía de sangrado la mujer que tocó los vestidos de Jesús?",
+                "opciones": {
+                    "a": 13,
+                    "b": 12,
+                    "c": 11,
+                    "d": 10
+                },
+                "respuesta": "b"
+            },
+            {
+                "enunciado": "Según Lucas 9:9 ¿Cómo murió Juan el Bautista?",
+                "opciones": {
+                    "a": "Ahorcado",
+                    "b": "Decapitado",
+                    "c": "Quemado",
+                    "d": "Crucificado"
+                },
+                "respuesta": "b"
+            },
+            {
+                "enunciado": "¿Quiénes eran los hombres que hablaban con Jesús en la transfiguración según Lucas 9: 30?",
+                "opciones": {
+                    "a": "Moisés y Abraham",
+                    "b": "Elías y Juan",
+                    "c": "Moisés y Elías",
+                    "d": "Jacob y Jonás"
+                },
+                "respuesta": "c"
+            },
+            {
+                "enunciado": "¿En cuál capítulo de Lucas se narra la crucifixión de Jesús?",
+                "opciones": {
+                    "a": 22,
+                    "b": 23,
+                    "c": 24,
+                    "d": 25
+                },
+                "respuesta": "b"
+            }
+        ],
+
+        "dificil": [{
+                "enunciado": "De acuerdo a Lucas 24:18 ¿Quién preguntó a Jesús: 'Eres tú el único en Jerusalén que no ha sabido las cosas que en ella han acontecido'?",
+                "opciones": {
+                    "a": "Nicodemo",
+                    "b": "Jairo",
+                    "c": "Cleofas",
+                    "d": "Caifás"
+                },
+                "respuesta": "c"
+            },
+            {
+                "enunciado": "Según Lucas 4:25 ¿Qué fue cerrado durante 6 años y 6 días en el tiempo del profeta Elías?",
+                "opciones": {
+                    "a": "El cielo",
+                    "b": "El templo",
+                    "c": "La casa de Acab",
+                    "d": "Las puertas de Jerusalén"
+                },
+                "respuesta": "a"
+            },
+            {
+                "enunciado": "De acuerdo a Lucas 15:9 ¿Cuándo la viuda encuentra la moneda se reúne con sus amigas y vecinas para celebrar?",
+                "opciones": {
+                    "a": "Verdadero",
+                    "b": "Falso",
+                    "c": "",
+                    "d": ""
+                },
+                "respuesta": "a"
+            },
+            {
+                "enunciado": "Según Lucas 9:20 ¿Cuál fue la respuesta de Pedro cuando Jesús preguntó 'Y vosotros, quién decís que soy'?",
+                "opciones": {
+                    "a": "Tu eres el Cristo, hijo del Dios viviente",
+                    "b": "El hijo de Dios",
+                    "c": "Tú eres el Cristo",
+                    "d": "El Cristo de Dios"
+                },
+                "respuesta": "d"
+            },
+            {
+                "enunciado": "De acuerdo a Lucas 22:50 ¿Qué le cortó uno de los discípulos a un siervo del sumo sacerdote?",
+                "opciones": {
+                    "a": "Oreja izquierda",
+                    "b": "Oreja derecha",
+                    "c": "Mano derecha",
+                    "d": "Mano izquierda"
+                },
+                "respuesta": "b"
+            },
+            {
+                "enunciado": "De acuerdo a Lucas 14:3 ¿A quién preguntó Jesús 'es lícito sanar en sábado'?",
+                "opciones": {
+                    "a": "Intérpretes de la ley y Fariseos",
+                    "b": "Escribas y Fariseos",
+                    "c": "Discípulos y Fariseos",
+                    "d": "Sacerdotes y Fariseos"
+                },
+                "respuesta": "a"
+            },
+            {
+                "enunciado": "De acuerdo a Lucas 3:23 ¿Quién era el padre y el abuelo terrenal de Jesús?",
+                "opciones": {
+                    "a": "José y David",
+                    "b": "José José",
+                    "c": "José y Elí",
+                    "d": "Zacarías y Juan"
+                },
+                "respuesta": "c"
+            },
+            {
+                "enunciado": "Según Lucas 23:39 ¿En qué lado de la cruz estaba el malhechor que injuriaba a Jesús?",
+                "opciones": {
+                    "a": "Derecho",
+                    "b": "Izquierdo",
+                    "c": "Ningún malhechor injurió a Jesús",
+                    "d": "Ninguna de las anteriores"
+                },
+                "respuesta": "d"
+            },
+            {
+                "enunciado": "Según Lucas 22:54-62 ¿Cuál fue el orden de las personas que acusaron a Pedro?",
+                "opciones": {
+                    "a": "Un hombre, la criada y otro hombre",
+                    "b": "La criada y dos hombres",
+                    "c": "Dos hombres y la criada",
+                    "d": "Ninguna de las anteriores"
+                },
+                "respuesta": "b"
+            },
+            {
+                "enunciado": "En Lucas 24:36 Jesús saluda a sus discípulos ¿Cuál es el saludo?",
+                "opciones": {
+                    "a": "Paz a vosotros",
+                    "b": "Paz sea a vosotros",
+                    "c": "¡Salve!",
+                    "d": "Paz con vosotros"
+                },
+                "respuesta": "a"
+            },
+            {
+                "enunciado": "¿Cuántos milagros realiza Jesús en el capítulo 5 de Lucas?",
+                "opciones": {
+                    "a": 2,
+                    "b": 5,
+                    "c": 4,
+                    "d": 3
+                },
+                "respuesta": "d"
+            }
+        ]
+    }
+}
