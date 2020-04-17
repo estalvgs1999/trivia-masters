@@ -10,21 +10,48 @@
  * A project by av_software 
  * ------------------------------------------ */
 
-
-
-var categories = ["Preguntas", "¿Quién lo dijo?", "Completa la frase"];
-
-var equipo1 = 0;
-var equipo2 = 0;
-
 var category = "Preguntas";
 var q_level = "facil";
+var a_points = 0;
+var b_points = 0;
+
+window.onload = async() => {
+
+    var requestOptions = {
+        method: 'GET',
+        redirect: 'follow'
+    };
+
+    const response = await fetch("http://127.0.0.1:8080/api/v1.0/points", requestOptions);
+    const result = await response.json();
+
+    document.getElementById("p1").innerHTML = result["a_points"];
+    document.getElementById("p2").innerHTML = result["b_points"];
+}
 
 
-function select_category() {
-    category = categories[Math.floor(Math.random() * categories.length)];
-    console.log(category);
-    document.getElementById("category").setAttribute('value', category);
+const select_category = async() => {
+
+    var requestOptions = {
+        method: 'GET',
+        redirect: 'follow'
+    };
+
+    const response = await fetch("http://127.0.0.1:8080/api/v1.0/category", requestOptions);
+    const result = await response.json();
+
+    set_category(result);
+}
+
+
+function set_category(result) {
+
+    console.log(result);
+
+    category = result["category"];
+
+    console.log(`cat: ${category}`);
+    document.getElementById("category").setAttribute('value', result["category"]);
 }
 
 function select_question(level) {

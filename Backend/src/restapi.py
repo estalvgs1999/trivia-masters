@@ -20,12 +20,16 @@ app = Flask(__name__)
 
 path = '/api/v1.0'
 
+@app.route(path+'/points', methods=['GET'])
+def get_points():
+    return jsonify({'a_points':game.team_a_points,'b_points':game.team_b_points})
+
 @app.route(path+'/category', methods=['GET'])
 def get_random_category():
     select_category = game.select_category()
-    return jsonify({'category':select_category,'a_points':game.team_a_points,'b_points':game.team_b_points}) 
+    return jsonify({'category':select_category}) 
 
-@app.route(path+'/question', methods=['GET'])
+@app.route(path+'/question', methods=['POST'])
 def get_random_question():
     print(request.json)
     selected_qustion = game.select_question(request.json['category'],request.json['level'])
@@ -35,7 +39,7 @@ def get_random_question():
 def verify_answer():
     print(request.json)
     answer_state = game.validate_answer(request.json['question'],request.json['answer'])
-    return jsonify({'state':answer_state, 'a_points':game.team_a_points,'b_points':game.team_b_points})
+    return jsonify({'state':answer_state})
 
 def run_api():
     app.run(port=8080)

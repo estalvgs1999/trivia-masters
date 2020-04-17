@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="../css/correct_main.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
-
+        <script src="../js/check.js"></script>
     </head>
 
     <body>
@@ -29,12 +29,12 @@
             <!--División de puntajes-->
             <div class="puntajes">
                 <div class="Eq1">
-                    <p class="Equip"> </p>
-                    <p class="Puntos"> </p>
+                    <p class="Equip"> Equipo 1: </p>
+                    <p id="p1" class="Puntos"> 0 </p>
                 </div>
                 <div class="Eq2">
-                    <p class="Equip"></p>
-                    <p class="Puntos"></p>
+                    <p class="Equip"> Equipo 2: </p>
+                    <p id="p2" class="Puntos"> 0 </p>
                 </div>
             </div>
             <!--Fin de la división de puntajes-->
@@ -59,10 +59,8 @@
 
         <script>
             if (localStorage.getItem("level") == 'facil') {
-                console.log("entra");
                 var element = document.getElementById("id01");
                 element.innerHTML = "+1 pts";
-
             }
         </script>
 
