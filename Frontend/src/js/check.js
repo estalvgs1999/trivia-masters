@@ -1,3 +1,18 @@
+/* -------------------------------------------
+ * File: check.js
+ * Develop by: @estalvgs1999
+ * Description: controls events and connect w/
+ * backend,related w/ question checking.
+ *
+ * version 0.1
+ * Last edit : 17/4/2020 [21:30]
+ *
+ * A project by av_software 
+ * ------------------------------------------ */
+
+/**
+ * 
+ */
 window.onload = async() => {
 
     var requestOptions = {

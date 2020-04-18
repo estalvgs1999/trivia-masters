@@ -1,11 +1,11 @@
 /* -------------------------------------------
  * File: app.js
- * Develop by: @smidvarg
+ * Develop by: @estalvgs1999
  * Description: controls events and connect w/
- * backend.
+ * backend, related on category selection.
  *
  * version 0.1
- * Last edit : 6/4/2020 [20:30]
+ * Last edit : 17/4/2020 [20:30]
  *
  * A project by av_software 
  * ------------------------------------------ */
@@ -15,6 +15,9 @@ var q_level = "facil";
 var a_points = 0;
 var b_points = 0;
 
+/**
+ * 
+ */
 window.onload = async() => {
 
     var requestOptions = {
@@ -29,7 +32,9 @@ window.onload = async() => {
     document.getElementById("p2").innerHTML = result["b_points"];
 }
 
-
+/**
+ * 
+ */
 const select_category = async() => {
 
     var requestOptions = {
@@ -43,7 +48,10 @@ const select_category = async() => {
     set_category(result);
 }
 
-
+/**
+ * 
+ * @param {any} result 
+ */
 function set_category(result) {
 
     console.log(result);
@@ -54,6 +62,10 @@ function set_category(result) {
     document.getElementById("category").setAttribute('value', result["category"]);
 }
 
+/**
+ * 
+ * @param {string} level 
+ */
 function select_question(level) {
     localStorage.setItem("category", category);
     localStorage.setItem("level", level);

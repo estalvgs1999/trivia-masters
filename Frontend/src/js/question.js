@@ -1,8 +1,22 @@
+/* -------------------------------------------
+ * File: question.js
+ * Develop by: @estalvgs1999
+ * Description: controls events and connect w/
+ * backend,related w/ questions.
+ *
+ * version 0.1
+ * Last edit : 17/4/2020 [21:30]
+ *
+ * A project by av_software 
+ * ------------------------------------------ */
+
 var question;
 var answer;
 var level;
 
-
+/**
+ * 
+ */
 window.onload = async() => {
 
     category = localStorage.getItem("category");
@@ -31,6 +45,9 @@ window.onload = async() => {
     set_options();
 }
 
+/**
+ * 
+ */
 function set_options() {
 
     document.getElementById("question").innerHTML = question['enunciado'];
@@ -40,11 +57,18 @@ function set_options() {
     document.getElementById("d").innerHTML = question['opciones']['d'];
 }
 
+/**
+ * 
+ * @param {string} ans 
+ */
 function set_answer(ans) {
     answer = ans;
     console.log(ans);
 }
 
+/**
+ * 
+ */
 const validate_answer = async() => {
 
     var myHeaders = new Headers();
@@ -69,6 +93,5 @@ const validate_answer = async() => {
     } else {
         location.href = '../html/incorrect_index.html';
     }
-
 
 }

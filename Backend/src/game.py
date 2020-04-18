@@ -7,7 +7,7 @@
 # related to game logic.
 #
 # version 0.1
-# last edited: 7/4/20 [23:00]
+# last edited: 17/4/20 [23:00]
 #
 # an av_software project
 #-------------------------------
@@ -61,7 +61,9 @@ class Game:
        return self.question_set.getRandomCategory()
 
     def select_question(self, category, level = 'easy'):
-        return self.question_set.getRandomQuestion(category,level)
+        qs = self.question_set.getRandomQuestion(category,level)
+        print(qs)
+        return qs
         
     def validate_answer(self,question, answer):
         state = False

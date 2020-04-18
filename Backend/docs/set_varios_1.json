@@ -6,37 +6,44 @@
             {
                 "enunciado": "¿Cómo se llamaban los hijos de Noé?",
                 "opciones": { "a": "Sadrac, Mesac y Abed-nego", "b": "Caín, Abel y Set", "c": "Sem, Cam y Jafet", "d": "Sam, Cem y Jafet" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 1
             },
             {
                 "enunciado": "¿Quién fue el tercer rey de Israel?",
                 "opciones": { "a": "Roboam", "b": "Salomón", "c": "David", "d": "Jeroboam" },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             },
             {
                 "enunciado": "¿Cuantas plagas envió Dios a Egipto?",
                 "opciones": { "a": 8, "b": 9, "c": 11, "d": 10 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 1
             },
             {
                 "enunciado": "¿Cuál es el septimo libro del nuevo testamento?",
                 "opciones": { "a": "Gálatas", "b": "Romanos", "c": "1 Corintios", "d": "2 Corintios" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 1
             },
             {
                 "enunciado": "¿Nombre del apóstol hermano de Pedro?",
                 "opciones": { "a": "Andrés", "b": "Filemón", "c": "Mateo", "d": "Juan" },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 1
             },
             {
                 "enunciado": "¿Nombre de la madre de Juan el Bautista?",
                 "opciones": { "a": "María", "b": "Elizabeth", "c": "Ana", "d": "Abigail" },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             },
             {
                 "enunciado": "¿Cómo se llamaba la esposa de Moisés?",
                 "opciones": { "a": "Séfora", "b": "Mariam", "c": "Betsabé", "d": "Dorcas" },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 1
             }
 
         ],
@@ -45,37 +52,44 @@
             {
                 "enunciado": "¿Cuál es el cápitulo más corto de la Biblia?",
                 "opciones": { "a": "Salmos 107", "b": "Salmos 117", "c": "Salmos 119", "d": "Salmos 127" },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             },
             {
                 "enunciado": "¿Cómo se llamaba la primera mujer, a la que Dios le cambió su nombre?",
                 "opciones": { "a": "Eva", "b": "Rut", "c": "Marta", "d": "Sarai" },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 3
             },
             {
                 "enunciado": "¿Por cuántos ciclos de plata fue vendido José?",
                 "opciones": { "a": 30, "b": 22, "c": 20, "d": 15 },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 3
             },
             {
                 "enunciado": "¿Qué profeta bajo su consentimiento fue arrojado al mar?",
                 "opciones": { "a": "Miqueas", "b": "Jonás", "c": "Felipe", "d": "Daniel" },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             },
             {
                 "enunciado": "¿Cuántos años vivió Samuel?",
                 "opciones": { "a": 98, "b": 88, "c": 99, "d": "Ninguna de las anteriores" },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 3
             },
             {
                 "enunciado": "¿Quién cayó de un piso alto por quedarse dormido?",
                 "opciones": { "a": "Timoteo", "b": "Tito", "c": "Eutico", "d": "Epafrodito" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 3
             },
             {
                 "enunciado": "Hermano de Jesús que fue líder de la iglesia de Jerusalén",
                 "opciones": { "a": "Santiago", "b": "Jacobo", "c": "Judas", "d": "Esteban" },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             }
 
         ]
@@ -88,27 +102,32 @@
             {
                 "enunciado": "¿Quién dijo 'Mía la es la venganza'?",
                 "opciones": { "a": "Moisés", "b": "Jehova", "c": "Señor", "d": "Dios" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 1
             },
             {
                 "enunciado": "¿Quién dijo 'Tu pueblo será mi pueblo, y tu Dios mi Dios'?",
                 "opciones": { "a": "Noemí", "b": "Rahab", "c": "Elizabeth", "d": "Rut" },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 1
             },
             {
                 "enunciado": "¿Quién dijo 'Puede venir algo bueno de Nazareth'?",
                 "opciones": { "a": "Natanael", "b": "Moisés", "c": "Felipe", "d": "Tomás" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 1
             },
             {
                 "enunciado": "¿Quién dijo 'Yo y mi casa serviremos a Jehová'?",
                 "opciones": { "a": "Josué", "b": "José", "c": "Caleb", "d": "Moisés" },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 1
             },
             {
                 "enunciado": "¿Quién dijo 'Levántate, toma tu lecho, y vete a tu casa'?",
                 "opciones": { "a": "Pedro", "b": "Juan", "c": "Pablo", "d": "Jesús" },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 1
             }
 
         ],
@@ -117,27 +136,33 @@
             {
                 "enunciado": "¿Quién dijo 'Muera yo la muerte de los rectos'?",
                 "opciones": { "a": "Balaám", "b": "Jeremías", "c": "Miqueas", "d": "Nehemías" },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 3
             },
             {
                 "enunciado": "¿Quién dijo 'Basta ya, oh Jehová, quítame la vida'?",
                 "opciones": { "a": "Moisés", "b": "Eliseo", "c": "Elías", "d": "Jacob" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 3
+
             },
             {
                 "enunciado": "¿Quién dijo 'A quienes entregué a Satanás para que aprendan a no blasfemar'?",
                 "opciones": { "a": "Timoteo", "b": "Pablo", "c": "Bernabé", "d": "Judas" },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             },
             {
                 "enunciado": "¿Quién dijo 'El Espíritu de Jehová el Señor está sobre mí'?",
                 "opciones": { "a": "Isaías", "b": "Jesús", "c": "Jeremías", "d": "David" },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 3
             },
             {
                 "enunciado": "¿Quién dijo 'Ah, Señor Jehová, que he visto al ángel de Jehova cara a cara'?",
                 "opciones": { "a": "Barac", "b": "Débora", "c": "Gedeón", "d": "Sansón" },
-                "respuesta": "c"
+                "respuesta": "c",
+                "points": 3
             }
 
         ]
@@ -155,7 +180,8 @@
                     "c": "Y tu corazón guarde mi ley",
                     "d": "Y tu corazón guarde mis mandamientos"
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 1
             },
             {
                 "enunciado": "____ al niño en su camino, Y aún cuando fuere ____ no se apartará de él",
@@ -165,7 +191,8 @@
                     "c": "Guía, mayor",
                     "d": "Instruye, viejo"
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 1
             },
             {
                 "enunciado": "Acuérdate de tu Creador en los días de tu juventud ...",
@@ -175,7 +202,8 @@
                     "c": "antes de que oscurezcan el sol y la luna",
                     "d": "antes de que seas mayor"
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 1
             },
             {
                 "enunciado": "Te haré entender y te enseñaré el camino en que debes andar ...",
@@ -185,7 +213,8 @@
                     "c": "Sobré tí pondré mis ojos",
                     "d": "Ninguna de las anteriores"
                 },
-                "respuesta": "a"
+                "respuesta": "a",
+                "points": 1
             }
 
         ],
@@ -199,7 +228,8 @@
                     "c": "voz, camino, Señor",
                     "d": "voz, desierto, Dios"
                 },
-                "respuesta": "d"
+                "respuesta": "d",
+                "points": 3
             },
             {
                 "enunciado": "En las muchas ____ no falta pecado más el que ____ sus labios es prudente ",
@@ -209,7 +239,8 @@
                     "c": "palabras, controla",
                     "d": "palabras, reprende"
                 },
-                "respuesta": "b"
+                "respuesta": "b",
+                "points": 3
             }
         ]
 

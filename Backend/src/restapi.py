@@ -8,7 +8,7 @@
 # game logic.
 #
 # version 0.1
-# last edited: 7/4/20 [23:00]
+# last edited: 17/4/20 [23:00]
 #
 # an av_software project
 #-------------------------------

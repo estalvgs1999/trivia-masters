@@ -7,7 +7,7 @@
 # and questions sets.
 #
 # version 0.1
-# last edited: 7/4/20 [23:00]
+# last edited: 17/4/20 [23:00]
 #
 # an av_software project
 #-------------------------------
@@ -57,8 +57,22 @@ class QuestionSet:
         return random.choice(self.__categories)
 
     def getRandomQuestion(self, category,level):
-        return random.choice(self.__questions[category][level])
-
+        try:
+            qs = random.choice(self.__questions[category][level])
+            self.__questions[category][level].remove(qs)
+            return qs
+        except IndexError:
+            return {
+                "enunciado": "Ya no hay más preguntas en la categoría {0}, nivel {1}".format(category,level),
+                "opciones": {
+                    "a": "",
+                    "b": "",
+                    "c": "",
+                    "d": "Continuar"
+                },
+                "respuesta": "d",
+                "points": 0
+            }
 
 
 if __name__ == "__main__":
