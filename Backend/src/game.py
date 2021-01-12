@@ -85,6 +85,9 @@ class Game:
         self.plays += 1
 
     def info(self):
+        '''
+            Muestra en la consola los puntajes del juego.
+        '''
         info = '''
         ------------ TRIVIA ----------
         
